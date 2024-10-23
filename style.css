@@ -22,3 +22,17 @@ body{
     left: 7%;
     top: 8%;
 }
+.resume{
+    color: aliceblue;
+    position: absolute;
+    right: 7%;
+    top: 35%;
+    font-size: x-large;
+}
+.contact{
+    color: aliceblue;
+    position: absolute;
+    right: 17%;
+    top: 35%;
+    font-size: x-large;
+}
