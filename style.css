@@ -96,7 +96,7 @@ body {
 }
 
 .svg {
-    display: none;
+    visibility: hidden;
 }
 
 @media(max-width: 768px) {
