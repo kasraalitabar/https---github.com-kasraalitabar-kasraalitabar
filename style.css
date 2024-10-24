@@ -1,13 +1,15 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
 }
-.navbar{
+
+.navbar {
     background-color: #5c7c89;
     max-width: 1280;
     width: 100%;
@@ -15,28 +17,32 @@ body{
     position: relative;
     margin-top: 0;
 }
-.my_img{
+
+.my_img {
     border-radius: 50%;
     width: 85px;
     position: absolute;
     left: 7%;
     top: 8%;
 }
-.resume{
+
+.resume {
     color: aliceblue;
     position: absolute;
     right: 7%;
     top: 35%;
     font-size: x-large;
 }
-.contact{
+
+.contact {
     color: aliceblue;
     position: absolute;
     right: 17%;
     top: 35%;
     font-size: x-large;
 }
-.progect{
+
+.progect {
     color: #5c7c89;
     margin-left: 47%;
     margin-top: 10%;
@@ -44,39 +50,94 @@ body{
     margin-bottom: 100px;
     position: relative;
 }
-.avid{
-    background-color: #5c7c89;
-    width: 100%;
+
+.avid {
+    background-color: #f0f0f0;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 30px;
     height: 300px;
+    z-index: 1px;
 }
-.avidimg{
+
+.avidimg {
     height: 250px;
     margin-top: 25px;
     position: absolute;
-    left: 30px;
+    left: 150px;
 }
-.textavid{
+
+.textavid {
     position: absolute;
     right: 100px;
     top: 450px;
     width: 600px;
-    color: aliceblue;
-    font-size: x-large;
-    text-align: right;
-}
-.link{
-    border: solid white;
-    padding: 5px 10px;
-    background-color: white;
     color: #5c7c89;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.link {
+    border: solid #5c7c89;
+    padding: 5px 10px;
+    background-color: #5c7c89;
+    color: #fcfcfc;
     border-radius: 10px;
     position: absolute;
-    left: 50%;
-    top: 580px;
+    left: 67%;
+    top: 525px;
 }
-.car{
+
+.car {
     background-color: #5c7c89;
     width: 100%;
     height: 300px;
     margin-top: 150px;
+}
+
+.svg {
+    display: none;
+}
+
+@media(max-width: 768px) {
+    .resume {
+        visibility: hidden;
+    }
+
+    .contact {
+        visibility: hidden;
+    }
+
+    .svg {
+        display: inline-block;
+        width: 40px;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+    }
+
+    .avidimg {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        left: 115px;
+    }
+
+    .progect {
+        margin-left: 40%;
+    }
+
+    .textavid {
+        font-size: large;
+        position: absolute;
+        left: -80px;
+        top: 450px;
+    }
+
+    .link {
+        position: absolute;
+        left: 42.5%;
+        top: 500px;
+        padding: 2px 5px;
+    }
 }
