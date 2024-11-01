@@ -85,22 +85,25 @@ body {
     font-size: large;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 700px) {
     body{
         width: 100%;
         margin-left: auto;
         margin-right: auto;
         
     }
+    .progect{
+        margin-left: 35%;
+    }
     .resume {
-        visibility: hidden;
+        display: none;
     }
 
     .contact {
-        visibility: hidden;
+        display: none;
     }
     .navbar{
-        max-width: 900px;
+        max-width: 700px;
     }
 
     .svg {
@@ -110,26 +113,28 @@ body {
         right: 20px;
         top: 30px;
     }
+    .all{
+        max-width: 700PX;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 300px;
 
-    .avidimg {
-        width: 200px;
-        height: 100px;
-        margin-left: 10%;
+    }
+    .avid-logo{
+        width: 212px;
+        padding-bottom: 0;
+        margin-left: 12%;
+    }
+    .company{
+        font-size: medium;
+        margin-left: 33%;
+        width: 226px;
+    }
+    .link{
+        font-size: medium;
+        margin-left: 37%;
     }
 
-    .progect {
-        margin-left: 41%;
-    }
-
-    .textavid {
-        font-size: large;
-        margin-right:-15%;
-    }
-
-    .link {
-        position: absolute;
-        left: 45.5%;
-        top: 500px;
-        padding: 2px 5px;
-    }
+    
 }
